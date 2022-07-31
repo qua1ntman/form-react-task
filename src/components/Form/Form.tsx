@@ -8,8 +8,6 @@ import PhoneField from '../PhoneField/PhoneField'
 import './Form.scss'
 import { IResponse, TFormState } from './../../interfaces';
 
-
-
 function Form() {
 
   const [formData, setFormData] = useState<TFormState>({
